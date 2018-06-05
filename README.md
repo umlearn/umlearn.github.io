@@ -1,5 +1,5 @@
 # [umlearn.github.io][1]
-This Page shows some my recent works. It is mainly used to do some online tests. If you browse here, it may not help you. I'm sorry.
+This Page shows some my recent works. It is mainly used to do some online tests. It may not helpful to you. Truly sorry🙏.
 ### Motion Design For JD iPad
 - [JdHD v3.3 intro page][2]
 - [JdHD v3.4 intro page][3]
