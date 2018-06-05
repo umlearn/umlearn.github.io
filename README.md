@@ -23,6 +23,6 @@ This Page shows some my recent works. It is mainly used to do some online tests.
 [7]:	/jd/jd394
 [8]:	/jd/jdnotifications
 [9]:	/jd/jdv3usercenter
-[10]:	jdv4homepage
+[10]:	/jd/jdv4homepage
 [11]:	/jd/jdv4usercenter
 [12]:	jd/jdloadingad
