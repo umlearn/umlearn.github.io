@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <circle id="b" cx="8" cy="8" r="8"/>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 0.012195122 0 0 0 0 0 0 0 0 0.391276042 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(10 7)">
+    <use fill="black" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FF3A3E" xlink:href="#b"/>
+    <path fill="#FFFFFF" d="M8.537,3.264 C7.625,3.264 6.881,3.564 6.329,4.188 C5.789,4.764 5.513,5.532 5.501,6.492 L6.809,6.492 C6.833,5.796 6.977,5.28 7.265,4.92 C7.541,4.548 7.949,4.368 8.489,4.368 C8.993,4.368 9.389,4.488 9.653,4.728 C9.917,4.968 10.049,5.328 10.049,5.808 C10.049,6.312 9.845,6.78 9.461,7.212 C9.221,7.464 8.813,7.788 8.237,8.196 C7.265,8.868 6.617,9.384 6.305,9.756 C5.729,10.404 5.453,11.148 5.453,12 L11.357,12 L11.357,10.848 L7.073,10.848 C7.253,10.38 7.805,9.84 8.729,9.228 C9.581,8.652 10.169,8.196 10.505,7.848 C11.057,7.236 11.345,6.564 11.345,5.82 C11.345,5.064 11.081,4.452 10.565,3.972 C10.037,3.492 9.353,3.264 8.537,3.264 Z"/>
+  </g>
+</svg>

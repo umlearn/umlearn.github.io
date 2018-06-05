@@ -1,0 +1,119 @@
+
+
+<body style="padding:0px; margin:0px;">
+
+    <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- This code works with jquery library. -->
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="jssor.slider-22.0.15.mini.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_SlideshowTransitions = [
+            
+                /*Extrude OUT Stripe*/
+                <!-- {$Duration:1000,x:-0.2,$Delay:40,$Cols:12,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:260,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5}},-->
+                   
+                /*Extrude in Stripe*/
+                <!--{$Duration:1000,x:0.2,$Delay:40,$Cols:12,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$JssorEasing$.$EaseInOutExpo,$Opacity:$JssorEasing$.$EaseInOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5}},-->
+                
+                /*左右推移*/
+                <!-- {$Duration:1200,x:1,$Easing:{$Left:$JssorEasing$.$EaseInOutQuart,$Opacity:$JssorEasing$.$EaseLinear},$Opacity:2,$Brother:{$Duration:1200,x:-1,$Easing:{$Left:$JssorEasing$.$EaseInOutQuart,$Opacity:$JssorEasing$.$EaseLinear},$Opacity:2}},-->
+                
+                /*淡入淡出*/
+                <!--{$Duration:1000,$Opacity:2,$Brother:{$Duration:1000,$Opacity:2}}, -->
+             
+                /*垂直间隔飞入*/
+                <!--{$Duration:1000,y:1,$Delay:80,$Cols:12,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:513,$Easing:{$Top:$JssorEasing$.$EaseInCubic,$Opacity:$JssorEasing$.$EaseOutQuad},$Opacity:2},-->
+                
+                /*Vertical Random Fade Stripe*/
+                <!--{$Duration:1000,$Delay:80,$Cols:10,$Opacity:2},-->
+                
+                /*垂直左右淡入*/
+                {$Duration:1000,$Delay:100,$Cols:10,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Opacity:2},
+                
+                 ];
+                
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+        });
+    </script>
+    <style>
+        /* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position:relative;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 30px;
+            height: 3px;
+            filter: alpha(opacity=80);
+           	border-radius: 2px;
+            overflow: hidden;
+            cursor: pointer;
+           
+        }
+        .jssorb01 div { background-color: #000;  opacity: .4;}
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff;   opacity: .9;}
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+    </style>
+    <div id="jssor_1" style="position: absolute; margin: 0 auto; top: 0px; left: 0px; width: 1024px; height: 320px; overflow: hidden; visibility: hidden;">
+        <div data-u="slides" style="cursor: default; position: absolute; top: 0px; left: 0px; width: 1024px; height: 320px; overflow: hidden;">
+            <div data-p="112.50">
+                <img data-u="image" src="01.jpg" />
+            </div>
+            <div data-p="112.50" style="display:none;">
+                <img data-u="image" src="02.jpg" />
+            </div>
+            <a data-u="any" href="#" style="display:none">Banner Rotator</a>
+            <div data-p="112.50" style="display:none;">
+                <img data-u="image" src="03.jpg" />
+            </div>
+            <div data-p="112.50" style="display:none;">
+                <img data-u="image" src="04.jpg" />
+            </div>
+            <div data-p="112.50" style="display:none;">
+                <img data-u="image" src="05.jpg" />
+            </div>
+            <div data-p="112.50" style="display:none;">
+                <img data-u="image" src="06.jpg" />
+            </div>
+            <div data-p="112.50" style="display:none;">
+                <img data-u="image" src="07.jpg" />
+            </div> 
+             <div data-p="112.50" style="display:none;">
+                <img data-u="image" src="08.jpg" />
+            </div>                
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb01" style="  margin: 0 auto; top: 300px;">
+            <div data-u="prototype" ></div>
+        </div>
+    </div>
+</body>

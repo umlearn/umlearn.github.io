@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="19.125" viewBox="0 0 59 19.125">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cef3ff;
+        stroke: #cef3ff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="cloud2" class="cls-1" d="M712,308.122h58s-7-18.9-21-9.947C749,298.175,727,274.3,712,308.122Z" transform="translate(-711.5 -289.5)"/>
+</svg>
