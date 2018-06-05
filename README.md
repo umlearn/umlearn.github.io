@@ -20,7 +20,7 @@ This Page shows some my recent works. It is mainly used to do some online tests.
 [4]:	/jd/jd36
 [5]:	/jd/jd38
 [6]:	/jd/jd39
-[7]:	/jd/jd384
+[7]:	/jd/jd394
 [8]:	/jd/jdnotifications
 [9]:	/jd/jdv3usercenter
 [10]:	jdv4homepage
