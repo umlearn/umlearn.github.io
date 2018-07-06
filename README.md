@@ -16,7 +16,7 @@ This Page shows some my recent works. It is mainly used to do some online tests.
 - [JdHD Loading AD][12]
 
 #### Eleme Woks Archiving
-- Waiting to upload
+- Waiting to upload～
 
 [1]:	https://umlearn.github.io/jd/jd33
 [2]:	https://umlearn.github.io/jd/jd34
