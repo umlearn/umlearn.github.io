@@ -1,1 +1,112 @@
-theme: jekyll-theme-slate
+# Site settings
+title: UMLEARN
+SEOTitle: UMLEARN
+header-img: img/home-bg.jpg
+email: service@umlearn.cc
+description: "这里是 UMLEARN 的博客，分享设计心得，日常软件技巧，网络实用技能相关。"
+keyword: "动效设计,UI设计,交互设计,设计教程,实用技巧,UX,UI,Motion,Design"
+url: "https://umlearn.cc"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: true
+# weibo_username:     huxpro
+zhihu_username:     shi-jia-mo-pi
+github_username:    umlearn
+dribbble_username:  umlearn
+#facebook_username:  huxpro
+#linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+disqus_username: UMLEARN
+
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-133563083-1'            # Format: UA-xxxxxx-xx
+ga_domain: umlearn.cc
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "UMLEARN<br/>无谓正邪，内省自尊，外则坦之。"
+sidebar-avatar: /img/avatar_um.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+#friends: [
+#    {
+#    #     title: "xxx",
+#    #     href: "http://xxx"
+#    # },{
+#        title: "xxx",
+#        href: "http:xxx"
+#    }
+#]
