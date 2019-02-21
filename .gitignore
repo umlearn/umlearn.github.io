@@ -1,6 +1,8 @@
-
-eleme/.DS_Store
-jd/.DS_Store
+_site
+node_modules
+npm-debug.log
 .DS_Store
-eleme/.DS_Store
-jd/.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*.sh
+.vscode
