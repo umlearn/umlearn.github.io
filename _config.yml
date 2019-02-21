@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: UMLEARN
 SEOTitle: UMLEARN
@@ -110,3 +111,6 @@ page-mathjax: false
 #        href: "http:xxx"
 #    }
 #]
+=======
+theme: jekyll-theme-midnight
+>>>>>>> 996f7e7614a9e452e7b3ed2a1a156adfd621e3b5
