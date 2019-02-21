@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: service@umlearn.cc
 description: "这里是 UMLEARN 的博客，分享设计心得，日常软件技巧，网络实用技能相关。"
 keyword: "动效设计,UI设计,交互设计,设计教程,实用技巧,UX,UI,Motion,Design"
-url: "https://umlearn.cc"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://www.umlearn.cc"              # your host, for absolute URL
+baseurl: ""                # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
