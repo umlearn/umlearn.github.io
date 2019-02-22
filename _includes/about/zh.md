@@ -1,6 +1,6 @@
 <html>
 <head>
-    <style>
+    <style type= "text/css">
         * {
             outline: none;
         }
@@ -17,19 +17,9 @@
             text-decoration: none;
         }
 
-        a:hover {
-            color: #00b38a;
-        }
+        
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            margin: 10px 0;
-            font-weight: normal;
-        }
+
 
         p {
             margin: 0;
@@ -104,15 +94,6 @@
             margin: 0;
         }
 
-        ::selection {
-            color: #fff;
-            background-color: #00b38a;
-        }
-
-        ::-moz-selection {
-            color: #fff;
-            background-color: #00b38a;
-        }
 
         ul,
         ol {
@@ -148,7 +129,7 @@
         .mr-template .mr-template_title span:before {
             content: '';
             display: block;
-            border-left: 3px solid #00B38A;
+            border-left: 3px solid #2396ff;
             height: 16px;
             width: 3px;
             position: absolute;
@@ -535,9 +516,6 @@
             font-size: 14px;
             color: #666666;
         }
-
-
-        /***** 图片作品 end ****/
     </style>
 </head>
 
@@ -552,7 +530,7 @@
                 <div class="basic-info">
                     <div class="basic-name-area">
                         <p class="basic-name female">王永全</p>
-                            <i class="icon-sex icon-sex__male"></i>
+                            <!-- <i class="icon-sex icon-sex__male"></i> -->
                     </div>
                                 <p>
                                     <span class="basic-company">饿了么</span>
@@ -691,6 +669,6 @@
                 <!-- /教育经历 -->
 
         </div>
-    <script type="text/javascript" src="https://www.lagou.com/upload/oss.js"></script></body>
+</body>
 
 </html>
