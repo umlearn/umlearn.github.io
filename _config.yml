@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: true
-# weibo_username:     huxpro
-zhihu_username:     shi-jia-mo-pi
+# weibo_username:    
+zhihu_username:     umlearn
 github_username:    umlearn
 dribbble_username:  umlearn
-#facebook_username:  huxpro
+#facebook_username:   
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -78,7 +78,7 @@ ga_domain: umlearn.cc
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "UMLEARN<br/>无谓正邪，内省自尊，外则坦之。"
+sidebar-about-description: "无谓正邪，内省自尊，外则坦之。"
 sidebar-avatar: /img/avatar_um.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -90,7 +90,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
+chrome-tab-theme-color: "#FFFFFF"
 service-worker: true
 
 
