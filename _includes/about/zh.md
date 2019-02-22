@@ -573,7 +573,8 @@
                             </span> -->
                             <span class="basic-email">
                                 <i class="basic-email_icon"></i>
-                                <span>service@umlearn.cc</span>
+                                <span>
+                                <a href="mailto:service@umlearn.cc?subject=你的名称-邮件主题&body=你好👋！请尽量详细说明你的来意...">service@umlearn.cc</a></span>
                             </span>
                     </p>
                 </div>
