@@ -979,8 +979,8 @@ samp {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 0px;
-  /* 0 on mobile, modify by Hux */
+  margin-bottom: 16px;
+  /* 16 on mobile, modify by umlearn */
 }
 .intro-header.style-text {
   background: none;

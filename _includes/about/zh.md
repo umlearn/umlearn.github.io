@@ -109,7 +109,7 @@
         }
 
         .mr-template {
-            padding: 50px 50px 10px;
+            padding: 5% 5% 10px;
         }
 
         .mr-template .mr-template_title {
@@ -145,7 +145,7 @@
         /***** 基本信息 ****/
 
         .basic {
-            padding: 50px;
+            padding: 5%;
             background: #FAFAFA;
             border-radius: 5px 5px 0 0;
             border-bottom: 1px solid #E3EBE9;
@@ -178,7 +178,6 @@
         .basic .basic-info {
             position: relative;
             width: 100%;
-            margin-left: 20px;
             flex: 1;
         }
 
@@ -446,6 +445,7 @@
             font-size: 14px;
             color: #666666;
             position: absolute;
+            margin-top: 24px;
             right: 0;
         }
 
@@ -631,7 +631,7 @@
                                     <img src="https://www.lgstatic.com/i/image3/M00/1D/3F/Cgq2xlqOLf2ACMDXAABBT-tAyt0252.jpg" alt="公司Logo">
                                     <div class="exp-list_right">
                                         <strong class="exp-list_title">
-                                            <span>上海望客电子商务有限公司</span>
+                                            <span>望客电子商务</span>
                                                                                     </strong>
                                         <p>产品设计师</p>
                                     </div>
