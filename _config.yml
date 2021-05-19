@@ -72,7 +72,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-133563083-1'            # Format: UA-xxxxxx-xx
-ga_domain: umlearn.cc
+ga_domain: umlearn.tech
 
 
 
